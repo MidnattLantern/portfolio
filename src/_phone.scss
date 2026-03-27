@@ -51,3 +51,26 @@
     text-align: justify;
     align-items: center;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-theme-transparent);
+}
+
+.discord-username {
+    cursor: pointer;
+}
+
+.discord-username:focus,
+.discord-username:hover {
+    color: var(--color-theme);
+    text-decoration: underline;
+}
