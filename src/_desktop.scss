@@ -1,0 +1,19 @@
+// scss
+
+@media screen and (min-width: 1170px) {
+    .landing-banner > h1 {
+        display: grid;
+        top: 120px;
+        gap: 350px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .landing-banner_break-heading {
+        justify-content: baseline;
+        flex-direction: row;
+    }
+
+    .landing-banner_break-heading:first-child {
+        justify-content: end;
+    }
+}
