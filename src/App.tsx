@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router';
 import './App.scss'
 import AvatarImage from "./assets/midnatt-lantern-avatar.webp";
 
@@ -30,6 +31,21 @@ function LandingBanner() {
     )
 }
 
+function LandingNavigationSection() {
+    return (
+        <section className="landing-navigation">
+            <nav>
+                <NavLink to={"/frontend"} className="landing-navigation_frontend-banner">
+                    <span>Frontend Development</span>
+                </NavLink>
+                <NavLink to={"/illustration"} className="landing-navigation_illustration-banner">
+                    <span>Art & Illustration</span>
+                </NavLink>
+            </nav>
+        </section>
+    )
+}
+
 function Footer() {
     function handleCopyDiscordUsername() {
         navigator.clipboard.writeText("midnatt_lantern");
@@ -50,6 +66,7 @@ function App() {
     return (
         <>
             <LandingBanner/>
+            <LandingNavigationSection/>
             <Footer/>
         </>
     )
