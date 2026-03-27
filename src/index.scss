@@ -6,15 +6,33 @@
     --color-clear: rgba(0,0,0,0);
     --color-theme: rgb(231, 86, 166);
     --color-theme-transparent: rgba(231, 86, 166, 0.5);
+    --color-shadow: rgba(0, 0, 0, 0.5);
 
     --font-serif: "Forum", serif;
     --font-sans-serif: "Roboto", sans-serif;
 }
 
+body {
+    background-color: var(--color-surface);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
+    color: var(--color-body);
+    margin: 0;
 }
 
 h1 {
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    color: var(--color-body);
+    font-family: var(--font-sans-serif);
 }

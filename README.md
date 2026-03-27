@@ -2,7 +2,7 @@
 Live link: https://MidnattLantern.github.io/portfolio
 
 ## About
-This project is part of vocational training to demonstrate my skills in writing solid and effective HTMl and CSS without using a single line of JavaScript, as well as implimenting accessibility and performance.
+This project is part of vocational training in frontend development
 
 Developed by Alma Isaksson "Midnatt Lantern".
 
@@ -61,25 +61,3 @@ Firefox accessibility report no issues.
 ![Firefox Accessibility Report](./readme-assets/firefox-accessibility-report.png)
 
 To try accessibility on Mac, press `command` + `f5` then navigate around each element using the arrow keys while holding down `control` + `shift` + `option`.
-
-## Disclosure
-
-### Artificial Intelligence Disclosure:
-Services such as ChatGPT was involved alongside traditional internet search engines, like DuckDuckGo, exclusively to acquire technical information. Such as what an element or styling property does, how to use it, some tips and tricks, and feedback if the use of elements is semantic and or recommended, in the same way as you acquire information and tips and tricks from traditional search engines and forums. Due to the risk of conflicts of agreement and AI hallucination/ misinformation, no code snippet generated from ChatGPT or shared on web forums were directly copy-pasted, but occationally referenced after studying, verifying and understanding its meaning on a deep personal level.
-
-### Other Disclosures:
-- There are many conflicts and debates across the internet, AI chatbots, and personal first-hand experience on what is best practice and what works. It cannot be guaranteed that the quality of the code for this project is perfectly semantic and optimal. Be aware of potenial unintended misuse/ misinformation and bad practice of the code. Feedback is encouraged.
-- While adviced to only keep one rel="preconnect" when importing Google Fonts, removing either cause w3 validation error, hence there are two rel="preconnect" at the font import.
-- Same issue regarding rel="preconnect", keeping it for the font imports decreases Lighthouse "performance" grade by around 5 points, while removing it breaks the import, causing the webpage to fall back on to the next font in line of the font family. This preconenct will stay with the compromise of losing many Lighthouse points and remain within a yellow "performance" grade when testing for "Mobile". However, Lighthouse will give a green "performance" grade when testing for "Desktop".
-- Some accessibility checkers may complain about "art gallery" being inaccessible. This does not match practical testing, as tabbing to that windows does focus on the "art gallery" element (tested on MacBook Air M1).
-
-![HTML Validation Report](./readme-assets/html-validation-report.png)
-
-![CSS Validation Report](./readme-assets/css-validation-report.png)
-
-## Unaddressed/ future fixes:
-- Web-project cards have underline text decoration during hover and focus in desktop view.
-- Inconsistent alignment on the contact-me form. Some classes have gotten "temporary solution" margins, but it is worth considering fixing the proper alignment in the future.
-- Learn how to use the `srcset=""` attribute for images to optimize performance based on the device size.
-- Cleaner CSS, as its current state can be messy.
-- any class of "reader-view-only" won't display hidden text until refresh
