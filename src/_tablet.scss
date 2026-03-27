@@ -25,4 +25,16 @@
             padding-right: 50px;
         }
     }
+
+    .landing-navigation > nav {
+        flex-direction: row;
+        overflow: visible;
+        border-radius: 0;
+    }
+
+    .landing-navigation_frontend-banner,
+    .landing-navigation_illustration-banner {
+        filter: grayscale(100%);
+        height: 500px;
+    }
 }
