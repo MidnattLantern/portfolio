@@ -197,6 +197,48 @@
     }
 }
 
+.illustration-preview_align-artstation-and-pinterest {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 20px;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        border: 1px solid var(--color-clear);
+        background-color: var(--color-theme-dark);
+        padding-bottom: 1rem;
+
+        &:hover {
+            border-color: var(--color-theme);
+
+            path {
+                fill: var(--color-theme);
+            }
+        }
+    }
+}
+
+.illustration-preview_artstation-wide-logo {
+    path {
+        fill: var(--color-artstation-logo-blue-path);
+
+        &:first-child {
+            fill: var(--color-artstation-logo-white-path);
+        }
+    }
+}
+
+
+.illustration-preview_pinterest-wide-logo {
+    width: 100%;
+    path {
+        fill: var(--color-pinterest-logo-red-path);
+    }
+}
+
 footer {
     width: 100%;
     height: fit-content;
