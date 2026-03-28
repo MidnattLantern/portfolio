@@ -38,6 +38,12 @@
         height: 500px;
     }
 
+    .frontend-preview_text-alignment {
+        flex-direction: row;
+        gap: 5rem;
+        text-align: justify;
+    }
+
     .frontend-preview_web-project-card {
         height: 300px;
         border-radius: 0;
@@ -60,5 +66,14 @@
 
     .frontend-preview_web-project-snapshot {
         filter: blur(0);
+    }
+
+    .illustration-preview_text-alignment {
+        flex-direction: row;
+        gap: 2rem;
+
+        p {
+            width: 50%;
+        }
     }
 }

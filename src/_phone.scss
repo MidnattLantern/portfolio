@@ -103,6 +103,11 @@
     width: 100%;
 }
 
+.frontend-preview_text-alignment {
+    display: flex;
+    flex-direction: column;
+}
+
 .frontend-preview_web-project-card {
     display: flex;
     flex-direction: row;
@@ -162,6 +167,16 @@
     object-fit: cover;
     object-position: top;
     filter: blur(1px);
+}
+
+.illustration-preview {
+    padding: 20px;
+}
+
+.illustration-preview_text-alignment {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
