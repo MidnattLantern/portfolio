@@ -207,6 +207,7 @@ function IllustrationPreview() {
                     <span>pinterest.com/midnatt_lantern</span>
                 </a>
             </div>
+            <NavLink to="/illustration">Read more</NavLink>
         </section>
     )
 }

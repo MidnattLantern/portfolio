@@ -1,3 +1,11 @@
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
 .landing-banner {
     display: flex;
     flex-direction: column;
@@ -198,12 +206,14 @@
 }
 
 .illustration-preview_align-artstation-and-pinterest {
-    display: flex;
-    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
     height: fit-content;
     gap: 20px;
 
     a {
+        width: 100%;
         display: flex;
         flex-direction: column;
         height: fit-content;
