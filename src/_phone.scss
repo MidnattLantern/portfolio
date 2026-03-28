@@ -106,8 +106,9 @@
 .frontend-preview_web-project-card {
     display: flex;
     flex-direction: row;
-    width: calc(100% - 40px);
+    width: calc(100% - 40px - 2px);
     height: 200px;
+    border: 1px solid var(--color-clear);
     border-radius: 20px;
     margin: 20px;
     overflow: hidden;
