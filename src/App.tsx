@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router';
+import { NavLink, Route, Routes } from 'react-router';
 import './App.scss'
 import { DisplayHomePage } from './pages/homePage';
 import { DisplayIllustrationPage } from './pages/illustration/illustrationPage';
@@ -23,6 +23,13 @@ function App() {
 
     return (
         <>
+            <header>
+                <nav aria-label="Page Navigation Island">
+                    <NavLink to={"/"}>Home</NavLink>
+                    <NavLink to={"/frontend"}>Frontend</NavLink>
+                    <NavLink to={"/illustration"}>Illustration</NavLink>
+                </nav>
+            </header>
             <main>
                 <Routes>
                     <Route index element={<DisplayHomePage/>}/>

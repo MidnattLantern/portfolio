@@ -272,8 +272,12 @@ footer {
         font-size: 2.5rem;
     }
 
+    .landing-banner {
+        padding-top: 100px;
+    }
+
     .landing-banner > h1 {
-        top: 100px;
+        top: 200px;
         font-size: 3rem;
         flex-direction: row;
         gap: 300px;
@@ -362,7 +366,7 @@ footer {
 @media screen and (min-width: 1170px) {
     .landing-banner > h1 {
         display: grid;
-        top: 120px;
+        top: 220px;
         gap: 350px;
         grid-template-columns: 1fr 1fr;
     }
