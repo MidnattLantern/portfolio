@@ -5,11 +5,10 @@ import FullStackImage from "../assets/full-stack.webp";
 import MoraGoddessSnapshotImage from "../assets/mora-goddess-snapshot.webp";
 import KorainGodSnapshotImage from "../assets/korain-god-snapshot.webp";
 import MultiCoRosterSnapshotImage from "../assets/multico-roster-snapshot.webp";
-import ArtStationLogoWide from "../assets/artstation-logo-wide.svg?react";
-import PinterestLogoWide from "../assets/pinterest-logo-wide.svg?react";
 import { NavLink } from "react-router";
 import { IllustrationIntroText } from "../components/illustration-intro-text/IllustrationIntroText";
 import { ScrollingArtGallery } from "../components/scrolling-art-gallery/ScrollingArtGallery";
+import { ArtstationPinterestCards } from "../components/artstation-pinterest-cards/ArtstationPinterestCards";
 
 function LandingBanner() {
     return (
@@ -150,16 +149,7 @@ function IllustrationPreview() {
             <IllustrationIntroText/>
             <ScrollingArtGallery/>
             <h3>Explore my art projects on my ArtStation and Pinterest pages:</h3>
-            <div className="illustration-preview_align-artstation-and-pinterest">
-                <a href="https://www.artstation.com/midnight_lantern" target="_blank" rel="noopener noreferrer" aria-label="ArtStation's logo as an external link to Alma Midnatt Lantern's ArtStation portfolio page">
-                    <ArtStationLogoWide className="illustration-preview_artstation-wide-logo"/>
-                    <span>artstation.com/midnight_lantern</span>
-                </a>
-                <a href="https://se.pinterest.com/midnatt_lantern/art-by-midnatt-lantern" target="_blank" rel="noopener noreferrer" aria-label="Pinterest's logo as an external link to Alma Midnatt Lantern's Pinterest portfolio page">
-                    <PinterestLogoWide className="illustration-preview_pinterest-wide-logo"/>
-                    <span>pinterest.com/midnatt_lantern</span>
-                </a>
-            </div>
+            <ArtstationPinterestCards/>
             <NavLink to="/illustration">Read more</NavLink>
         </section>
     )
