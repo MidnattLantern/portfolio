@@ -1,0 +1,86 @@
+.web-projects_card {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 40px - 2px);
+    height: 200px;
+    border: 1px solid var(--color-clear);
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.web-projects_project-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background: linear-gradient(90deg, var(--color-surface) 0%, var(--color-surface-transparent) 100%);
+    width: inherit;
+    height: inherit;
+}
+
+.web-projects_card:focus .web-projects_project-info h3,
+.web-projects_card:focus .web-projects_project-info p {
+    color: var(--color-shadow);
+    outline: none;
+    animation: pulse-focus 3s infinite;
+    transition: all 0.2s ease;
+}
+.web-projects_card:hover .web-projects_project-info h3,
+.web-projects_card:hover .web-projects_project-info p {
+    color: var(--color-theme);
+    outline: none;
+    transition: all 0.2s ease;
+}
+.web-projects_card:focus .web-projects_project-info span,
+.web-projects_card:hover .web-projects_project-info span {
+    text-decoration: underline;
+}
+
+.web-projects_project-info h3,
+.web-projects_project-info p {
+    text-shadow: 0 2px 2px var(--color-shadow);
+    width: 300px;
+}
+
+.web-projects_snapshot {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+    filter: blur(1px);
+}
+
+.web-projects_zag {
+    flex-direction: row-reverse;
+}
+
+@media screen and (min-width: 768px) {
+
+    .web-projects_card {
+        height: 300px;
+        border-radius: 0;
+        border: 1px solid var(--color-clear);
+    }
+
+    .web-projects_card:hover,
+    .web-projects_card:focus {
+        border-color: var(--color-theme-transparent);
+        transition: all 0.2s ease;
+    }
+
+    .web-projects_project-info {
+        position: relative;
+        background: none;
+        border-radius: 0px;
+        background-color: var(--color-theme-dark);
+        width: 66%;
+    }
+
+    .web-projects_snapshot {
+        filter: blur(0);
+    }
+}

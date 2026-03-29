@@ -1,14 +1,12 @@
 import { useEffect } from "react";
 import "./home.scss";
 import AvatarImage from "../assets/midnatt-lantern-avatar.webp";
-import MoraGoddessSnapshotImage from "../assets/mora-goddess-snapshot.webp";
-import KorainGodSnapshotImage from "../assets/korain-god-snapshot.webp";
-import MultiCoRosterSnapshotImage from "../assets/multico-roster-snapshot.webp";
 import { NavLink } from "react-router";
 import { IllustrationIntroText } from "../components/illustration-intro-text/IllustrationIntroText";
 import { ScrollingArtGallery } from "../components/scrolling-art-gallery/ScrollingArtGallery";
 import { ArtstationPinterestCards } from "../components/artstation-pinterest-cards/ArtstationPinterestCards";
 import { FrontendIntroText } from "../components/frontend-intro-text/FrontendIntroText";
+import { WebProjectCards } from "../components/web-projects/WebProjects";
 
 function LandingBanner() {
     return (
@@ -59,72 +57,7 @@ function FrontendPreview() {
         <section className="frontend-preview">
             <h2>Frontend Development</h2>
             <FrontendIntroText/>
-            <a
-            href="https://midnattlantern.github.io/mora-goddess"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="frontend-preview_web-project-card"
-            aria-label="Link card to the Korain God web-project"
-            >
-                <article className="frontend-preview_web-project-info">
-                    <h3>Mora Goddess</h3>
-                    <p>Commissioned work. Web art gallery featuring five illustrations.</p>
-                    <span>
-                        midnattlantern.github.io/mora-goddess
-                    </span>
-                </article>
-                <img
-                src={MoraGoddessSnapshotImage}
-                alt="Snapshot of the website Mora Goddess"
-                title="Snapshot of the website Mora Goddess"
-                className="frontend-preview_web-project-snapshot"
-                loading="lazy"
-                />
-            </a>
-            <a
-            href="https://midnattlantern.github.io/korain-god"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="frontend-preview_web-project-card frontend-preview_zag"
-            aria-label="Link card to the Korain God web-project"
-            >
-                <article className="frontend-preview_web-project-info">
-                    <h3>Korain God</h3>
-                    <p>Commissioned work. Web art gallery featuring five illustrations.</p>
-                    <span>
-                        midnattlantern.github.io/korain-god
-                    </span>
-                </article>
-                <img
-                src={KorainGodSnapshotImage}
-                alt="Snapshot of the website Korain God"
-                title="Snapshot of the website Korain God"
-                className="frontend-preview_web-project-snapshot"
-                loading="lazy"
-                />
-            </a>
-            <a
-            href="https://midnattlantern.github.io/multico-roster"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="frontend-preview_web-project-card"
-            aria-label="Link card to the MultiCo Roster web-project"
-            >
-                <article className="frontend-preview_web-project-info">
-                    <h3>MultiCo Roster</h3>
-                    <p>Volunteer/ Personal project. Hero roster in collaboration with friends.</p>
-                    <span className="newtab-icon">
-                        midnattlantern.github.io/multico-roster
-                    </span>
-                </article>
-                <img
-                src={MultiCoRosterSnapshotImage}
-                alt="Snapshot of the website MultiCo Roster"
-                title="Snapshot of the website MultiCo Roster"
-                className="frontend-preview_web-project-snapshot"
-                loading="lazy"
-                />
-            </a>
+            <WebProjectCards/>
             <NavLink to="/frontend">
                 <span>Read more</span>
             </NavLink>

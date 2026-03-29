@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./frontendPage.scss";
 import { FrontendIntroText } from "../../components/frontend-intro-text/FrontendIntroText";
+import { WebProjectCards } from "../../components/web-projects/WebProjects";
 
 function LandingBanner() {
     return (
@@ -21,6 +22,7 @@ export function DisplayFrontendPage() {
             <LandingBanner/>
             <div className="frontend-page">
                 <FrontendIntroText/>
+                <WebProjectCards/>
             </div>
         </>
     )
