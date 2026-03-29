@@ -1,3 +1,42 @@
-@use "./phone";
-@use "./tablet";
-@use "./desktop";
+@use "./variables";
+
+body {
+    background-color: var(--color-surface);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--color-body);
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p, a {
+    color: var(--color-body);
+    font-family: var(--font-sans-serif);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--color-theme);
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
