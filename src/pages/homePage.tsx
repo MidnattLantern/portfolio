@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import "./home.scss";
 import AvatarImage from "../assets/midnatt-lantern-avatar.webp";
-import FullStackImage from "../assets/full-stack.webp";
 import MoraGoddessSnapshotImage from "../assets/mora-goddess-snapshot.webp";
 import KorainGodSnapshotImage from "../assets/korain-god-snapshot.webp";
 import MultiCoRosterSnapshotImage from "../assets/multico-roster-snapshot.webp";
@@ -9,6 +8,7 @@ import { NavLink } from "react-router";
 import { IllustrationIntroText } from "../components/illustration-intro-text/IllustrationIntroText";
 import { ScrollingArtGallery } from "../components/scrolling-art-gallery/ScrollingArtGallery";
 import { ArtstationPinterestCards } from "../components/artstation-pinterest-cards/ArtstationPinterestCards";
+import { FrontendIntroText } from "../components/frontend-intro-text/FrontendIntroText";
 
 function LandingBanner() {
     return (
@@ -58,17 +58,7 @@ function FrontendPreview() {
     return (
         <section className="frontend-preview">
             <h2>Frontend Development</h2>
-            <div className="frontend-preview_text-alignment">
-                <p>With formal training in web development, I boast a diploma from Code Institute's Full Stack bootcamp (60 SCQF). As of today, I'm attending vocational training at Medieinstitutet to specialize in UX and frontend development.</p>
-                <p>Programming to me can be as tingly as ASMR, occupying my leisure time as well. I spend time outside work or school developing my own projects, alone and with friends, or learn new languages and frameworks. Take a look at some of my projects down below:</p>
-            </div>
-            <img
-            src={FullStackImage}
-            alt="HTML, CSS, JavaScript, TypeScript, Python, C Sharp, React, NodeJS, GitHub"
-            title="Full stack"
-            className="frontend-preview_full-stack-image"
-            loading="lazy"
-            />
+            <FrontendIntroText/>
             <a
             href="https://midnattlantern.github.io/mora-goddess"
             target="_blank"

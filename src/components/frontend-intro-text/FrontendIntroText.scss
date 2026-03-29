@@ -1,0 +1,16 @@
+.frontend-intro-text_alignment {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.frontend-intro-text_full-stack-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .frontend-intro-text_alignment {
+        flex-direction: row;
+        gap: 5rem;
+    }
+}
