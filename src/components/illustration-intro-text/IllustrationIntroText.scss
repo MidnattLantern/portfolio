@@ -1,0 +1,16 @@
+.illustration-intro-text_alignment {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+    .illustration-intro-text_alignment {
+        flex-direction: row;
+        gap: 2rem;
+
+        p {
+            width: 50%;
+        }
+    }
+}

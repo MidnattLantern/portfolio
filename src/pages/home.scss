@@ -175,12 +175,6 @@
     border-top: 2px dashed var(--color-theme-transparent);
 }
 
-.illustration-preview_text-alignment {
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-}
-
 .illustration-preview_art-gallery {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -343,15 +337,6 @@ footer {
 
     .frontend-preview_web-project-snapshot {
         filter: blur(0);
-    }
-
-    .illustration-preview_text-alignment {
-        flex-direction: row;
-        gap: 2rem;
-
-        p {
-            width: 50%;
-        }
     }
 
     .illustration-preview_align-artstation-and-pinterest {
