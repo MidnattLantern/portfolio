@@ -1,0 +1,31 @@
+.illustration-landing-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-image:
+        linear-gradient(0deg, var(--color-surface) 10%, var(--color-clear) 60%),
+        url("../../assets/art-collage-slanted.webp");
+    background-size: cover;
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.4rem;
+        text-shadow: 0 3px 5px var(--color-shadow);
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .illustration-landing-banner {
+        justify-content: end;
+        padding-bottom: 80px;
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+}
