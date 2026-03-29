@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import "./illustrationPage.scss";
 import { IllustrationIntroText } from "../../components/illustration-intro-text/IllustrationIntroText";
+import { ScrollingArtGallery } from "../../components/scrolling-art-gallery/ScrollingArtGallery";
 
 function LandingBanner () {
     return (
@@ -20,6 +21,7 @@ export function DisplayIllustrationPage() {
             <LandingBanner/>
             <div className="illustration-page">
                 <IllustrationIntroText/>
+                <ScrollingArtGallery/>
             </div>
         </>
     )

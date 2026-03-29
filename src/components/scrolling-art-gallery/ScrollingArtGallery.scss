@@ -1,0 +1,15 @@
+.scrolling-art-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+
+    img {
+        position: relative;
+        width: 20vw;
+        height: 40vw;
+        object-fit: cover;
+        box-shadow: -5px 0 15px var(--color-shadow);
+    }
+}
