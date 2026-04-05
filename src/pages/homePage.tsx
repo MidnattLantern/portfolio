@@ -57,7 +57,7 @@ function FrontendPreview() {
         <section className="frontend-preview">
             <h2>Frontend Development</h2>
             <FrontendIntroText/>
-            <WebProjectCards/>
+            <WebProjectCards isPreview={true}/>
             <NavLink to="/frontend">
                 <span>Read more</span>
             </NavLink>
