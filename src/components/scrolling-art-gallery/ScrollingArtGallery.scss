@@ -1,9 +1,14 @@
 .scrolling-art-gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
     overflow-y: hidden;
     margin-bottom: 50px;
+
+    &_track {
+        display: flex;
+        animation: scroll 40s linear infinite;
+    }
 
     img {
         position: relative;
@@ -12,4 +17,9 @@
         object-fit: cover;
         box-shadow: -5px 0 15px var(--color-shadow);
     }
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); } // -50% because content is duplicated
 }

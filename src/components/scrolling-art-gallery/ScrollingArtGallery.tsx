@@ -6,7 +6,7 @@ export function ScrollingArtGallery() {
         return (
             <img
             key={index}
-            src={project.source}
+            src={`${import.meta.env.BASE_URL}${project.source}`}
             alt={project.description}
             title={project.name}
             loading="lazy"
@@ -15,8 +15,13 @@ export function ScrollingArtGallery() {
     })
 
     return (
-        <div className="scrolling-art-gallery">
-            {artGallery}
-        </div>
+        <>
+            <div className="scrolling-art-gallery">
+                <div className="scrolling-art-gallery_track">
+                    {artGallery}
+                    {artGallery} {/* duplicate for seamless loop */}
+                </div>
+            </div>
+        </>
     )
 }
