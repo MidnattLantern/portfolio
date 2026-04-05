@@ -25,7 +25,7 @@ export function WebProjectCards({isPreview = false}: Iprops) {
                     </span>
                 </article>
                 <img
-                src={project.snapshot}
+                src={`${import.meta.env.BASE_URL}${project.snapshot}`}
                 alt={`Snapshot of the website ${project.name}`}
                 title={`Snapshot of the website ${project.name}`}
                 className="web-projects_snapshot"

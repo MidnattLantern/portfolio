@@ -3,49 +3,49 @@
         "name": "Silverrose & Nightshade",
         "url": "https://midnattlantern.github.io/silverrose-and-nightshade/",
         "url-label": "midnattlantern.github.io/silverrose-and-nightshade",
-        "snapshot": "public/web-projects-snapshots/silverrose-and-nightshade-snapshot.webp",
+        "snapshot": "web-projects-snapshots/silverrose-and-nightshade-snapshot.webp",
         "description": "Vocational training. Fantasy themed pretend e-commerce platform."
     },
     {
         "name": "Divines Of Idoria",
         "url": "https://midnattlantern.github.io/divinesofidoria/",
         "url-label": "midnattlantern.github.io/divinesofidoria",
-        "snapshot": "public/web-projects-snapshots/divinesofidoria-snapshot.webp",
+        "snapshot": "web-projects-snapshots/divinesofidoria-snapshot.webp",
         "description": "Commissioned work. Web art gallery featuring illustrations for a DND world."
     },
     {
         "name": "Stranger Woods",
         "url": "https://medieinstitutet.github.io/fed25d-js-intro-grupparbete-the-dopefish-admirers/",
         "url-label": "medieinstitutet.github.io/fed25d-js-intro-grupparbete-the-dopefish-admirers",
-        "snapshot": "public/web-projects-snapshots/stranger-woods-snapshot.webp",
+        "snapshot": "web-projects-snapshots/stranger-woods-snapshot.webp",
         "description": "Vocational training, group project. Surreal forest themed digital escape room."
     },
     {
         "name": "MultiCo Roster",
         "url": "https://midnattlantern.github.io/multico-roster/",
         "url-label": "midnattlantern.github.io/multico-roster",
-        "snapshot": "public/web-projects-snapshots/multico-roster-snapshot.webp",
+        "snapshot": "web-projects-snapshots/multico-roster-snapshot.webp",
         "description": "Volunteer/ Personal project. Hero roster in collaboration with friends."
     },
     {
         "name": "Budget Board",
         "url": "https://midnattlantern.github.io/budget-board/",
         "url-label": "midnattlantern.github.io/budget-board",
-        "snapshot": "public/web-projects-snapshots/budgetboard-snapshot.webp",
+        "snapshot": "web-projects-snapshots/budgetboard-snapshot.webp",
         "description": "Volunteer/ Personal project. Hero roster in collaboration with friends."
     },
     {
         "name": "Mora Goddess",
         "url": "https://midnattlantern.github.io/mora-goddess/",
         "url-label": "midnattlantern.github.io/mora-goddess",
-        "snapshot": "public/web-projects-snapshots/mora-goddess-snapshot.webp",
+        "snapshot": "web-projects-snapshots/mora-goddess-snapshot.webp",
         "description": "Commissioned work. Web art gallery featuring five illustrations."
     },
     {
         "name": "Korain God",
         "url": "https://midnattlantern.github.io/korain-god/",
         "url-label": "midnattlantern.github.io/korain-god",
-        "snapshot": "public/web-projects-snapshots/korain-god-snapshot.webp",
+        "snapshot": "web-projects-snapshots/korain-god-snapshot.webp",
         "description": "Commissioned work. Web art gallery featuring five illustrations."
     }
 ]
