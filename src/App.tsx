@@ -3,6 +3,7 @@ import './App.scss'
 import { DisplayHomePage } from './pages/homePage';
 import { DisplayIllustrationPage } from './pages/illustration/illustrationPage';
 import { DisplayFrontendPage } from './pages/frontend/frontendPage';
+import MidnattLanternLogo from "./assets/midnatt-lantern-logo.svg?react";
 
 function Footer() {
     function handleCopyDiscordUsername() {
@@ -25,7 +26,7 @@ function App() {
         <>
             <header>
                 <nav aria-label="Page Navigation Island">
-                    <NavLink to={"/"}>Home</NavLink>
+                    <NavLink to={"/"}><MidnattLanternLogo className="midnatt-lanern-logo"/></NavLink>
                     <NavLink to={"/frontend"}>Frontend</NavLink>
                     <NavLink to={"/illustration"}>Illustration</NavLink>
                 </nav>
