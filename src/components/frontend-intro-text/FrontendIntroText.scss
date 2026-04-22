@@ -14,3 +14,9 @@
         gap: 5rem;
     }
 }
+
+@media screen and (min-width: 1170px) {
+    .frontend-intro-text {
+        width: 1100px;
+    }
+}

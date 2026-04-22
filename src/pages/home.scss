@@ -7,6 +7,7 @@
         linear-gradient(0deg, var(--color-surface) 10%, var(--color-clear) 60%),
         url("../assets/floral-wallpaper.webp");
     background-size: cover;
+    width: 100%;
     padding: 20px;
     padding-top: 0;
 }
@@ -52,11 +53,14 @@
     align-items: center;
 }
 
+.landing-navigation {
+    width: 100%;
+}
+
 .landing-navigation > nav {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    width: calc(100% - 40px);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -95,13 +99,20 @@
 
 .frontend-preview {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     padding: 20px;
     border-top: 2px dashed var(--color-theme-transparent);
 }
 
 .illustration-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
-    padding: 20px;
+    overflow: hidden;
     border-top: 2px dashed var(--color-theme-transparent);
 }
 
@@ -185,6 +196,10 @@ footer {
 }
 
 @media screen and (min-width: 1170px) {
+    .landing-banner_text-alignment {
+        width: 1100px;
+    }
+
     .landing-banner > h1 {
         display: grid;
         top: 220px;

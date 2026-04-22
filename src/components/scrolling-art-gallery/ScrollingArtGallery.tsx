@@ -14,12 +14,13 @@ export function ScrollingArtGallery() {
         )
     })
 
+    /* artGallery duplicate for seamless loop */
     return (
         <>
             <div className="scrolling-art-gallery">
                 <div className="scrolling-art-gallery_track">
                     {artGallery}
-                    {artGallery} {/* duplicate for seamless loop */}
+                    {artGallery}
                 </div>
             </div>
         </>

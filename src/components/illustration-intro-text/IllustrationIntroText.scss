@@ -1,7 +1,12 @@
+.illustration-intro-text {
+    width: calc(100vw - 50px);
+}
+
 .illustration-intro-text_alignment {
-    text-align: justify;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: justify;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,5 +17,11 @@
         p {
             width: 50%;
         }
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .illustration-intro-text {
+        width: 1100px;
     }
 }
