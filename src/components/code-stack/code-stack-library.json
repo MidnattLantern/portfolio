@@ -1,0 +1,18 @@
+[
+    {
+        "name": "HTML",
+        "href": "code-stack/html-icon.webp"
+    },
+    {
+        "name": "CSS",
+        "href": "code-stack/css-icon.webp",
+        "extensionName": "SCSS",
+        "extensionHref": "code-stack/scss-icon.webp"
+    },
+    {
+        "name": "JavaScript",
+        "href": "code-stack/javascript-icon.webp",
+        "extensionName": "TypeScript",
+        "extensionHref": "code-stack/typescript-icon.webp"
+    }
+]
