@@ -14,5 +14,37 @@
         "href": "code-stack/javascript-icon.webp",
         "extensionName": "TypeScript",
         "extensionHref": "code-stack/typescript-icon.webp"
+    },
+    {
+        "name": "C++",
+        "href": "code-stack/cpp-icon.webp",
+        "selfTaught": true
+    },
+    {
+        "name": "Vite",
+        "href": "code-stack/vite-icon-2026.webp",
+        "extensionName": "React",
+        "extensionHref": "code-stack/react-icon.webp"
+    },
+    {
+        "name": "React",
+        "href": "code-stack/react-icon.webp"
+    },
+    {
+        "name": "Figma",
+        "href": "code-stack/figma-icon.webp"
+    },
+    {
+        "name": "Affinity",
+        "href": "code-stack/affinity-icon.webp",
+        "selfTaught": true
+    },
+    {
+        "name": "Photoshop",
+        "href": "code-stack/photoshop-icon.webp"
+    },
+    {
+        "name": "Illustrator",
+        "href": "code-stack/illustrator-icon.webp"
     }
 ]

@@ -16,7 +16,11 @@ export function CodeStack() {
                 <figure>
                     <img src={techItem.href} title={techItem.name} alt={techItem.name} loading="lazy"/>
                     {techItem.extensionHref && extensionItemIcon}
-                    <figcaption>{techItem.extensionName ? extendedItemFigCaption : singleItemFigCaption}</figcaption>
+                    <figcaption
+                    className={`${techItem.selfTaught && "code-stack__self-taught"}`}>
+                        {techItem.extensionName ? extendedItemFigCaption : singleItemFigCaption}
+                        {techItem.selfTaught && <span>{` (self taught)`}</span>}
+                    </figcaption>
                 </figure>
             </li>
         )
