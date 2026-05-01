@@ -58,7 +58,7 @@ function FrontendPreview() {
             <h2>Frontend Development</h2>
             <FrontendIntroText/>
             <WebProjectCards isPreview={true}/>
-            <NavLink to="/frontend">
+            <NavLink to="/frontend" className="read-more-link">
                 <span>Read more</span>
             </NavLink>
         </section>
@@ -73,7 +73,9 @@ function IllustrationPreview() {
             <ScrollingArtGallery/>
             <h3>Explore my art projects on my ArtStation and Pinterest pages:</h3>
             <ArtstationPinterestCards/>
-            <NavLink to="/illustration">Read more</NavLink>
+            <NavLink to="/illustration" className="read-more-link">
+                <span>Read more</span>
+            </NavLink>
         </section>
     )
 }

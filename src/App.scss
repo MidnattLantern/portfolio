@@ -88,7 +88,8 @@ header {
         height: 100%;
 
         .midnatt-lanern-logo {
-            height: 60%;
+            width: 60px;
+            aspect-ratio: 1/1;
             fill: var(--color-body);
         }
 
