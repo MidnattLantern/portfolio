@@ -9,8 +9,8 @@
 
     li {
         position: relative;
-        width: 110px;
-        height: 200px;
+        width: 130px;
+        height: 220px;
         padding: 10px;
         list-style: none;
         background-color: var(--color-theme-dark);
@@ -41,6 +41,7 @@
     span {
         color: var(--color-body);
         font-size: 2.5rem;
+        font-family: var(--font-sans-serif);
         display: flex;
         justify-content: center;
         align-items: center;

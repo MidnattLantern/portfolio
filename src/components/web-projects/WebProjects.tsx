@@ -5,6 +5,21 @@ interface Iprops {
     isPreview?: boolean;
 }
 
+interface ITechStack {
+    name: string,
+    href: string
+}
+
+function TechStack({stack}: {stack : ITechStack[]}) {
+    return (
+        <ul>
+            {stack.map((item, index) => (
+                <li key={index}>{item.name}</li>
+            ))}
+        </ul>
+    )
+};
+
 export function WebProjectCards({isPreview = false}: Iprops) {
 
     const generatedWebProjects = WebProjectsLibrary.map((project, index) => {
@@ -20,6 +35,7 @@ export function WebProjectCards({isPreview = false}: Iprops) {
                 <article className="web-projects_project-info">
                     <h3>{project.name}</h3>
                     <p>{project.description}</p>
+                    {project["tech-stack"] && <TechStack stack={project["tech-stack"]}/>}
                     <span>
                         {project["url-label"]}
                     </span>

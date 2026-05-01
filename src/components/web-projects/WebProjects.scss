@@ -5,7 +5,6 @@
     height: 200px;
     border: 1px solid var(--color-clear);
     border-radius: 20px;
-    // margin: 20px;
     overflow: hidden;
 }
 
@@ -14,11 +13,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     z-index: 1;
     background: linear-gradient(90deg, var(--color-surface) 0%, var(--color-surface-transparent) 100%);
     width: inherit;
     height: inherit;
+
+    p, ul, h3, span {
+        text-align: left;
+        padding-left: 2rem;
+    }
 }
 
 .web-projects_card:focus .web-projects_project-info h3,
