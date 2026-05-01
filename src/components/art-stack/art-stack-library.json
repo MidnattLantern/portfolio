@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Clip Studio Paint EX 1.0",
+        "href": "tech-stack/clipstudiopaint-icon.webp",
+        "selfTaught": true
+    },
+    {
+        "name": "Affinity",
+        "href": "tech-stack/affinity-icon.webp",
+        "selfTaught": true
+    },
+    {
+        "name": "Photoshop",
+        "href": "tech-stack/photoshop-icon.webp"
+    },
+    {
+        "name": "Illustrator",
+        "href": "tech-stack/illustrator-icon.webp"
+    },
+    {
+        "name": "Blender",
+        "href": "tech-stack/blender-icon.webp",
+        "selfTaught": true
+    }
+]

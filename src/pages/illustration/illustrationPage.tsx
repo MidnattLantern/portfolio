@@ -4,6 +4,7 @@ import { IllustrationIntroText } from "../../components/illustration-intro-text/
 import { ScrollingArtGallery } from "../../components/scrolling-art-gallery/ScrollingArtGallery";
 import { ArtstationPinterestCards } from "../../components/artstation-pinterest-cards/ArtstationPinterestCards";
 import { CommissionedArtProjects } from "../../components/commissioned-art-projects/CommissionedArtProjects";
+import { ArtStack } from "../../components/art-stack/ArtStack";
 
 function LandingBanner() {
     return (
@@ -25,6 +26,7 @@ export function DisplayIllustrationPage() {
             <div className="illustration-page">
                 <IllustrationIntroText/>
                 <ScrollingArtGallery/>
+                <ArtStack/>
                 <CommissionedArtProjects/>
                 <h3>Explore my art projects on my ArtStation and Pinterest pages:</h3>
                 <ArtstationPinterestCards/>
