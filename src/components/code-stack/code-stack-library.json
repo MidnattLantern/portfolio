@@ -16,9 +16,12 @@
         "extensionHref": "code-stack/typescript-icon.webp"
     },
     {
-        "name": "C++",
-        "href": "code-stack/cpp-icon.webp",
-        "selfTaught": true
+        "name": "Python",
+        "href": "tech-stack/python-icon.webp"
+    },
+    {
+        "name": "MySQL",
+        "href": "tech-stack/mysql-icon.webp"
     },
     {
         "name": "Vite",
@@ -29,6 +32,10 @@
     {
         "name": "React",
         "href": "code-stack/react-icon.webp"
+    },
+    {
+        "name": "Django REST",
+        "href": "tech-stack/django-rest-icon.webp"
     },
     {
         "name": "Figma",

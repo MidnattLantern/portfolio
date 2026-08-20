@@ -30,7 +30,7 @@
 
 .web-projects_card:focus .web-projects_project-info h3,
 .web-projects_card:focus .web-projects_project-info p {
-    color: var(--color-shadow);
+    color: var(--color-theme);
     outline: none;
     animation: pulse-focus 3s infinite;
     transition: all 0.2s ease;
@@ -76,6 +76,7 @@
     .web-projects_card:focus {
         border-color: var(--color-theme-transparent);
         transition: all 0.2s ease;
+        text-decoration: none;
     }
 
     .web-projects_project-info {

@@ -83,6 +83,64 @@
         ]
     },
     {
+        "name": "Pseudoelementals (beta)",
+        "url": "https://midnattlantern.github.io/stranger-woods/",
+        "url-label": "midnattlantern.github.io/stranger-woods",
+        "snapshot": "web-projects-snapshots/pseudoelementals-snapshot.webp",
+        "description": "Proof of concept/ work in progress. Passion project where I explore building a code base that of a web game engine and heavy state management. As well as deep exploration on SVG and vector's DOM structure, to create an interactive experience.",
+        "tech-stack": [
+            {
+                "name": "Vite",
+                "href": "tech-stack/vite-icon.webp"
+            },
+            {
+                "name": "TypeScript",
+                "href": "tech-stack/typescript-icon.webp"
+            },
+            {
+                "name": "SCSS",
+                "href": "tech-stack/scss-icon.webp"
+            },
+            {
+                "name": "Affinity",
+                "href": "tech-stack/affinity-icon.webp"
+            },
+            {
+                "name": "GSAP",
+                "href": "tech-stack/gsap-icon.webp"
+            }
+        ]
+    },
+    {
+        "name": "Roster Card",
+        "url": "https://midnattlantern.github.io/roster-card/",
+        "url-label": "midnattlantern.github.io/roster-card",
+        "snapshot": "web-projects-snapshots/roster-card-snapshot.webp",
+        "description": "Vocational training assignment exploring graphical design elements; mainly CSS & JavaScript animations (with help of GSAP); raster assets optimization; and SVG vector creation, manipulatio, and integration.",
+        "tech-stack": [
+            {
+                "name": "Vite",
+                "href": "tech-stack/vite-icon.webp"
+            },
+            {
+                "name": "SCSS",
+                "href": "tech-stack/scss-icon.webp"
+            },
+            {
+                "name": "TypeScript",
+                "href": "tech-stack/typescript-icon.webp"
+            },
+            {
+                "name": "Affinity",
+                "href": "tech-stack/affinity-icon.webp"
+            },
+            {
+                "name": "GSAP",
+                "href": "tech-stack/gsap-icon.webp"
+            }
+        ]
+    },
+    {
         "name": "MultiCo Roster",
         "url": "https://midnattlantern.github.io/multico-roster/",
         "url-label": "midnattlantern.github.io/multico-roster",
