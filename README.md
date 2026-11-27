@@ -61,3 +61,14 @@ Firefox accessibility report no issues.
 ![Firefox Accessibility Report](./readme-assets/firefox-accessibility-report.png)
 
 To try accessibility on Mac, press `command` + `f5` then navigate around each element using the arrow keys while holding down `control` + `shift` + `option`.
+
+## Other
+
+Use either of these for the "Hälsa För Hela Människan" project:
+
+"Hälsa För Hela Människan" · Volunteer Frontend Developer
+Built and maintained the frontend for a Seventh-day Adventist Church initiative, using (technologies). My contribution was technical: implementation, accessibility, and performance. Content is provided by the organization.
+
+Volunteered as a frontend developer for "Hälsa För Hela Människan", a project of the Seventh-day Adventist Church, to strengthen my skills in React, responsive design, etc. while contributing to a community initiative.
+
+Frontend development for "Hälsa För Hela Människan", a Seventh-day Adventist Church initiative. Volunteer role.
